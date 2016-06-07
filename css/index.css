@@ -1,0 +1,42 @@
+ body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  main {
+    flex: 1 0 auto;
+  }
+      
+.black-text {
+    font-size: 30px;
+}
+.container{
+    height: 30px;
+    
+}
+#footer{
+ position:fixed;
+ bottom:0;
+ left:0;
+ right:0;
+}
+.rows{
+    padding-top:60px;
+    padding-right: 100px;
+}
+
+.material-icons{
+   font-size: 150px;
+   
+}
+h1{
+    
+    color:#ff9e80;
+}
+    
+a{
+    color:white;
+}
+i{
+    color:#ff9e80;
+}
