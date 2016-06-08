@@ -4590,7 +4590,7 @@ small {
   position: relative;
 }
 
-.card .card-image img {
+.card .card-image  img {
   display: block;
   border-radius: 2px 2px 0 0;
   position:relative;
@@ -4598,13 +4598,25 @@ small {
   right: 0;
   top: 0;
   bottom: 0;
-  width: 100%;
+  width: max-content;
+  height:max-content;
+  max-height: 250px;
+  max-width: 200px;
+  
+}
+.card-images img{
+     display: block;
+  border-radius: 2px 2px 0 0;
+  position:relative;
+  left: 0;
+  right: 200px;
+  top: 0;
+  bottom: 0;
+  width: max-content;
   height:max-content;
   max-height: 250px;
   max-width: 400px;
-  
 }
-
 .card .card-image .card-title {
   color: #fff;
   position:absolute;
